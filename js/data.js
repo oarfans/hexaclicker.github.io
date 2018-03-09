@@ -3,7 +3,7 @@ angular.module('HexaClicker')
         this.hexas = [
             //DPS HEXAS
             //         ID   Color       Price      BaseUpgr   BaseDPS
-            new DpsHexa(0,  "#ea8a00",  50,          50,         5),
+            new DpsHexa(0,  "#ea8a00",  50,          50,         74e+210),
             new DpsHexa(1,  "#bae272",  250,         250,        22),
             new DpsHexa(2,  "#541a30",  1e+3,        1e+3,       74),
             new DpsHexa(3,  "#d9afd7",  4e+3,        4e+3,       245),
