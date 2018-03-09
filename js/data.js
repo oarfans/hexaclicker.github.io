@@ -3,7 +3,7 @@ angular.module('HexaClicker')
         this.hexas = [
             //DPS HEXAS
             //         ID   Color       Price      BaseUpgr   BaseDPS
-            new DpsHexa(0,  "#ea8a00",  50,          50,         74e+210),
+            new DpsHexa(0,  "#ea8a00",  50,          50,         74e+21),
             new DpsHexa(1,  "#bae272",  250,         250,        22),
             new DpsHexa(2,  "#541a30",  1e+3,        1e+3,       74),
             new DpsHexa(3,  "#d9afd7",  4e+3,        4e+3,       245),
@@ -32,7 +32,7 @@ angular.module('HexaClicker')
             //UTILITY HEXAS
             new ActiveUtilityHexa(25, "#586fa1", 1, 1000, "[Active] +50% DPS Horizontally", UtilityHexa.TARGET.HORIZONTAL, {DPS: 1.5}, 10, 30),
             new ActiveUtilityHexa(26, "#ea8a00", 2, 1000, "[Active] +50% Area DPS", UtilityHexa.TARGET.AREA, {DPS: 1.5}, 10, 30),
-            new PassiveUtilityHexa(27, "#82CA9D", 2, 1000, "[Passive] +10% Area DPS", UtilityHexa.TARGET.AREA, {DPS: 1.10})
+            new PassiveUtilityHexa(27, "#82CA9D", 2, 1000, "[Passive] +10% Area DPS", UtilityHexa.TARGET.AREA, {DPS: 30000.5})
         ];
 
         this.getHexa = function(id) {
